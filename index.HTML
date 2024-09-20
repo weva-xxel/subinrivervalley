@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUBIN RIVER VALLEY LMT</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css.CSS"> <!-- Link to external CSS -->
+ </head>
+
+<body>
+     
+    
+    <style>
+      
+
+        .navbar-brand {
+            display: flex; /* Flexbox for the brand */
+            align-items: center; /* Center logo vertically */
+            text-decoration: none; /* Remove underline from the link */
+        }
+
+        .logo {
+            width: 100px; /* Increase the width of the logo */
+            height: auto; /* Maintain aspect ratio */
+            margin-right: 15px; /* Space between logo and text */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+            border-radius: 5px; /* Rounded corners for the logo */
+        }
+
+        .navbar-brand:hover .logo {
+            transform: scale(1.1); /* Slightly enlarge logo on hover */
+            transition: transform 0.3s; /* Smooth transition for the scaling effect */
+        }
+    </style>
+    
+           <nav class="navbar">
+               <!-- Hamburger button -->
+               <button class="navbar-toggle" type="button">
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+               </button>
+       
+               <!-- Navigation links -->
+               <div class="collapse navbar-collapse">
+                   <ul class="nav navbar-nav navbar-right">
+                       <li><a href="index.HTML">Home</a></li>
+                       <li><a href="tes.html">About</a></li>
+                       <li><a href="port.html">Portfolio</a></li>
+                       <li><a href="contact.html">Contact</a></li>
+                   </ul>
+               </div>
+               <a class="navbar-brand" href="#">
+            <img src="images/FINAL_LOGO.png" alt="Logo" class="logo">
+        </a>
+    
+           <a class="navbar-brand" href="#">SUBIN RIVER VALLEY LMT</a>
+           </nav>
+       
+
+       <style>body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .navbar {
+        background-color: #333;
+        padding: 10px;
+        position: relative;
+    }
+    
+    .navbar-toggle {
+        display: none; /* Hide the button by default */
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    
+    .navbar-toggle .icon-bar {
+        display: block;
+        width: 22px;
+        height: 2px;
+        background-color: #ffffff;
+        margin: 4px 0;
+    }
+    
+    /* Style for the nav links */
+    .navbar-collapse {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .navbar-nav {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .navbar-nav li {
+        margin: 0 15px;
+    }
+    
+    .navbar-nav a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    /* Show the button on small screens */
+    @media only screen and (max-width: 768px) {
+        .navbar-toggle {
+            display: block; /* Show the hamburger button */
+        }
+        .navbar-collapse {
+            display: none; /* Hide the nav by default on small screens */
+            flex-direction: column; /* Stack links vertically */
+            position: absolute; /* Position the dropdown */
+            top: 50px; /* Adjust based on your navbar height */
+            right: 0;
+            background-color: #333; /* Match navbar background */
+            width: 100%; /* Full width */
+            z-index: 1000; /* Ensure dropdown is on top */
+        }
+        .navbar-collapse.in {
+            display: flex; /* Show the nav when the button is clicked */
+        }
+        
+    }</style>
+
+      <script>// Add an event listener to the button
+        document.querySelector('.navbar-toggle').addEventListener('click', function() {
+            // Toggle the 'in' class on the navbar-collapse element
+            const navbarCollapse = document.querySelector('.navbar-collapse');
+            navbarCollapse.classList.toggle('in');
+        });</script>
+   </div>
+</nav>
+
+<header class="intro-header">
+<div class="logo-container">
+ </div>
+<h1>SUBIN RIVER VALLEY LMT</h1>
+<h3>our Partner in Steel Solutions</h3>
+</header>
+ 
+<style> 
+.intro-header {
+background-color: #2c3e50; /* Dark background color */
+color: #ecf0f1; /* Light text color for contrast */
+height: 100px; /* Set a smaller height */
+text-align: center; /* Center text */
+display: flex; /* Use flexbox for centering */
+flex-direction: column; /* Stack children vertically */
+justify-content: center; /* Center vertically */
+padding: px; /* Add some padding */
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+margin-top: 0; /* Space for fixed navbar */
+}
+
+.intro-header h1 {
+font-size: 1.5em; /* Smaller font size */
+margin: 5px 0; /* Adjust margin */
+text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Add text shadow for readability */
+}
+
+.intro-header h3 {
+font-size: 1em; /* Smaller font size */
+margin: 5px 0; /* Adjust margin */
+text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Add text shadow for readability */
+}
+</style>
+
+<script>
+// JavaScript to toggle navigation menu on sandwich button click
+const sandwichButton = document.getElementById('sandwich-button');
+const navbarNav = document.querySelector('.navbar-nav');
+
+sandwichButton.addEventListener('click', () => {
+    navbarNav.classList.toggle('active'); // Toggle the active class to show/hide the menu
+});
+</script>
+
+-->
+<!--
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" class="svg-background">
+<defs>
+<linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#007bff;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#6c757d;stop-opacity:1" />
+</linearGradient>
+</defs>
+<rect width="800" height="200" fill="url(#grad1)" />
+<circle cx="400" cy="300" r="200" fill="rgba(255, 255, 255, 0.1)" />
+</svg>-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
+        <!-- Remaining content -->
+   
+      </div>
+  </header>
+
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h4>Types of Steel</h4>
+        <a href="steel1.html" onclick="openSteelPage('Steel Plates')">Steel Plates</a>
+        <a href="steel2.html" onclick="openSteelPage('Steel Rods')">Steel Rods</a>
+        <a href="steel3.html" onclick="openSteelPage('Steel Pipes')">Steel Pipes</a>
+        <a href="steel4.html" onclick="openSteelPage('Steel Fittings')">Steel Fittings</a>
+        <a href="steel6.html" onclick="openSteelPage('Steel Beams')">Steel Beams</a>
+        <a href="steel7.html" onclick="openSteelPage('Steel Angles')">Steel Angles</a>
+    </aside>
+    
+    <style>body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: url('images/aspf.jpg') no-repeat center center fixed; /* Background image */
+        background-size: cover; /* Cover the entire background */
+        animation: backgroundAnimation 30s linear infinite; /* Background animation */
+      }
+      
+      @keyframes backgroundAnimation {
+        0% { background-position: 0% 0%; }
+        100% { background-position: 100% 0%; }
+      }
+      
+      header {
+        background-color: rgba(51, 51, 51, 0.8);
+        color: #f3e9ee;
+        padding: 1em;
+        text-align: center;
+      }
+      
+      header nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+      
+      header nav ul li {
+        margin-right: 20px;
+      }
+      
+      header nav a {
+        color: #fff;
+        text-decoration: none;
+      }
+      
+      #about {
+        padding: 2em;
+        background-color: rgba(255, 255, 255, 0.9); /* Light background for contrast */
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        margin: 20px; /* Margin to separate from other sections */
+      }
+      
+      #about h2 {
+        margin-bottom: 1em;
+        color: #333; /* Darker color for headings */
+      }
+      
+      #about p {
+        margin-bottom: 1em; /* Space between paragraphs */
+        line-height: 1.6; /* Improve readability */
+        color: #555; /* Slightly lighter text color */
+      }
+      
+      .testimonials {
+        padding: 2em;
+        background-color: rgba(212, 206, 206, 0.8); /* Semi-transparent background */
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        margin: 20px; /* Margin to separate from other sections */
+      }
+      
+      .testimonial-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      .testimonial {
+        margin: 20px;
+        padding: 20px;
+        background-color: #1f1f1f;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transform: translateY(0);
+        opacity: 0;
+        animation: fadeInUp 0.5s forwards; /* Animation for testimonials */
+        animation-delay: calc(0.2s * var(--i)); /* Staggered animation */
+        width: 300px; /* Fixed width for testimonials */
+      }
+      
+      .testimonial img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+      }
+      
+      .testimonial h2 {
+        margin-top: 0;
+        color: #fff; /* White color for testimonial names */
+      }
+      
+      .testimonial p {
+        color: #ddd; /* Lighter text color for testimonial content */
+      }
+      
+      .lazy-load {
+        opacity: 0;
+        transition: opacity 0.5s;
+      }
+      
+      .lazy-load.loaded {
+        opacity: 1;
+      }
+      
+      @keyframes fadeInUp {
+        from {
+            transform: translateY(20px);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+      }</style>
+      
+      <script>const images = document.querySelectorAll('.lazy-load');
+      
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('loaded');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            rootMargin: '50px',
+        });
+        
+        images.forEach((image, index) => {
+            image.style.setProperty('--i', index); // Set custom property for animation delay
+            observer.observe(image);
+        });</script>
+      
+
+
+
+    
+    </div>
+    <script>
+        function openTab(tabName) {
+            // Hide all tabs
+            var tabs = document.getElementsByClassName('tab');
+            for (var i = 0; i < tabs.length; i++) {
+                tabs[i].style.display = 'none';
+            }
+        
+            // Show the selected tab
+            document.getElementById(tabName).style.display = 'block';
+        }
+        </script>
+    <!-- Main Content -->
+    <main class="content">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>My steel dealing business in Ghana started in the early 2000s when I saw a growing demand for steel products in the mining industry. As the mining sector in Ghana expanded, there was a need for high-quality and durable steel for construction, transportation, and equipment used in mining operations.</p>
+            <p>I initially established contacts with local steel manufacturers and suppliers to source the best quality products at competitive prices. I built a reputation for reliability and prompt delivery, which helped me secure long-term contracts with major mining companies in the region.</p>
+            <p>Over the years, I expanded my product range to include a wide variety of steel products such as plates, rods, pipes, and fittings to meet the diverse needs of the mining industry. I also invested in storage and logistics infrastructure to ensure efficient distribution and delivery of steel products to mining sites across the country.</p>
+            <p>Through my dedication to customer satisfaction and consistent quality, my steel dealing business has become a trusted supplier to the mining industry in Ghana. I continue to adapt and innovate to meet the evolving needs of our clients.</p>
+        </section>
+
+        <main>
+          <!-- Portfolio Section -->
+          <section id="portfolio">
+            <div class="container">
+                <h2>Our Products</h2>
+                <div class="row">
+                    <div class="col-md-4 portfolio-item">
+                        <a href="#steel1">
+                            <img src="images/steelplate.JPEG" alt="Steel Plate">
+                            <h4>Steel Plate</h4>
+                        </a>
+                        <p class="iso">ISO 9001 Certified</p>
+                        <h5>Features:</h5>
+                        <ul class="features">
+                            <li>High tensile strength</li>
+                            <li>Corrosion resistant</li>
+                            <li>Easy to weld</li>
+                            <li>Durable and long-lasting</li>
+                        </ul>
+                        <div class="item-price">
+                            <!-- Price can be added here if needed -->
+                        </div>
+                        <div class="item-actions">
+                            <a href="subin_web_app/src/main/java/subinrivervalley/com/subin_web_app" class="btn btn-primary">Order Now</a>
+                            <a href="#more-info" class="btn btn-secondary">More Info</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 portfolio-item">
+                        <a href="#steel2">
+                            <img src="images/steelrod.jpg" alt="Steel Rod" class="img-responsive">
+                            <h4>Steel Rod</h4>
+                        </a>
+                        <p class="portfolio-description">Our high-quality steel rods are perfect for construction and industrial applications. They are known for their durability and strength.</p>
+                        <ul class="portfolio-specifications">
+                            <li><strong>Diameter:</strong> 12 mm</li>
+                            <li><strong>Length:</strong> 6 meters</li>
+                            <li><strong>Material:</strong> High-Strength Steel</li>
+                            <li><strong>Certification:</strong> ISO 9001</li>
+                        </ul>
+                        <a href="#order" class="btn btn-primary">Order Now</a>
+                    </div>
+                    <div class="col-md-4 portfolio-item">
+                        <a href="#steel3">
+                            <img src="images/steelpipe.jpg" alt="Steel Pipe" class="img-responsive">
+                            <h4>Steel Pipe</h4>
+                        </a>
+                        <p class="item-description">Our steel pipes are manufactured to meet the highest industry standards, ensuring durability and reliability for all your construction needs.</p>
+                        <h5>Features:</h5>
+                        <ul class="item-features">
+                            <li>High tensile strength</li>
+                            <li>Corrosion-resistant coating</li>
+                            <li>Available in various diameters</li>
+                            <li>Custom lengths available upon request</li>
+                        </ul>
+                        <div class="item-price">
+                            <!-- Price can be added here if needed -->
+                        </div>
+                        <div class="item-actions">
+                            <a href="#order" class="btn btn-primary">Order Now</a>
+                            <a href="#more-info" class="btn btn-secondary">More Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+          <!-- Contact Information -->
+<section id="contact">
+  <h2>Contact Us</h2>
+  <div class="contact-info">
+      <p><strong>Address:</strong><br>
+      38 Cherry Orchard Road<br>
+      London<br>
+      CRO 6GN<br>
+      United Kingdom</p>
+      <p><strong>UK Location:</strong><br>
+      38 Cherry Orchard Road<br>
+      London<br>
+      CRO 6GN<br>
+      United Kingdom</p>
+      <p><strong>Email:</strong> rivervalleysubin@gmail.com</p>
+  </div>
+</section>
+          </section>
+      </main>
+    
+</body>
+</html>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <h3>Contact Us</h3>
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <div class="image-placeholder">
+                <img src="images/steel_sheet_H2.jpeg" alt="Steel Products" />
+            </div>
+            <div class="smart-arts">
+                <h4>Why Choose Us?</h4>
+                <div class="smart-art-items">
+                    <div class="smart-art-item">
+                        <img src="images/quality_footer.jpg" alt="Quality"/>
+                        <h5>High Quality</h5>
+                        <p>We provide top-notch steel products that meet industry standards.</p>
+                    </div>
+                    <div class="smart-art-item">
+                        <img src="images/competitive.jpg" alt="Competitive Pricing" />
+                        <h5>Competitive Pricing</h5>
+                        <p>Our prices are designed to fit your budget without compromising quality.</p>
+                    </div>
+                    <div class="smart-art-item">
+                        <img src="images/delivery.jpg" alt="Fast Delivery" />
+                        <h5>Fast Delivery</h5>
+                        <p>We ensure timely delivery of your orders, every time.</p>
+                    </div>
+                    <div class="smart-art-item">
+                        <img src="images/service.jpg" alt="Customer Service" />
+                        <h5>Excellent Service</h5>
+                        <p>Our customer support is here to assist you with all your needs.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-info">
+                
+                
+                <h4>Locations</h4>
+                <p><strong>UK Address:</strong><br>
+                38 Cherry Orchard Road<br>
+                London<br>
+                CRO 6GN<br>
+                United Kingdom</p>
+                London: +44 7930 842838<br>
+                <p><strong>Ghana Address:</strong><br>
+                40 Prempeh 2nd Street<br>
+                Daban<br>
+                Kumasi<br>
+                Ashanti Region</p>
+                Ghana: 0547324433<br><br>
+  
+            </div>
+            <div class="social-media">
+                <h4>Follow Us:</h4>
+                <div class="social-links">
+                    <a href="https://facebook.com" target="_blank">Facebook</a>
+                    <a href="https://twitter.com" target="_blank">Twitter</a>
+                    <a href="https://instagram.com" target="_blank">Instagram</a>
+                    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <p class="copyright text-muted small">Copyright &copy; Ashtown Group of Companies 2024. All Rights Reserved</p>
+    </div>
+  </footer>
+  
+  
+  <style>.footer {
+    background-color: #272727e8; /* Light background for footer */
+    color: #666060; /* Dark text for contrast */
+    border-radius: 1px;
+    padding: 2em 0; /* Padding for the footer */
+    border-top: 1px solid #ccc; /* Top border for separation */
+  }
+  
+  .footer-content {
+    max-width: 1200px; /* Max width for content */
+    margin: 0 auto; /* Center the content */
+    padding: 0 20px; /* Side padding */
+  }
+  
+  .contact-form {
+    margin-bottom: 2em; /* Space below the form */
+  }
+  
+  .form-group {
+    margin-bottom: 1em; /* Space between form groups */
+  }
+  
+  .form-group label {
+    display: block; /* Block display for labels */
+    margin-bottom: 0.5em; /* Space below label */
+    color: #555; /* Darker color for labels */
+  }
+  
+  .form-group input, .form-group textarea {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Padding for inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1em; /* Font size */
+  }
+  
+  .submit-btn {
+    background-color: #007BFF; /* Button color */
+    color: white; /* Button text color */
+    padding: 10px 15px; /* Button padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .image-placeholder {
+    margin: 2em 0; /* Space above and below the image */
+    text-align: center; /* Center the image */
+  }
+  
+  .smart-arts {
+    margin: 2em 0; /* Space above and below the smart arts section */
+  }
+  
+  .smart-arts h4 {
+    margin-bottom: 1em; /* Space below the heading */
+  }
+  
+  .smart-art-items {
+    display: flex; /* Flex layout for smart arts */
+    flex-wrap: wrap; /* Wrap items to the next line */
+    justify-content: space-around; /* Space around items */
+  }
+  
+  .smart-art-item {
+    width: 220px; /* Fixed width for smart art items */
+    text-align: center; /* Center text */
+    margin: 1em; /* Space around items */
+  }
+  
+  .smart-art-item img {
+    width: 100px; /* Fixed width for images */
+    height: auto; /* Auto height to maintain aspect ratio */
+    margin-bottom: 0.5em; /* Space below images */
+  }
+  
+  .contact-info {
+    margin: 2em 0; /* Space above and below the contact info section */
+    padding: 1em; /* Padding for the contact info */
+    background-color: rgba(255, 255, 255, 0.726); /* Slightly transparent background */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .contact-info h4 {
+    margin-bottom: 1em; /* Space below the heading */
+  }
+  
+  .social-media {
+    margin: 2em 0; /* Space above and below the social media section */
+  }
+  
+  .social-media h4 {
+    margin-bottom: 1em; /* Space below the heading */
+  }
+  
+  .social-links {
+    display: flex; /* Flex layout for social links */
+    justify-content: center; /* Center the links */
+  }
+  
+  .social-links a {
+    color: #007BFF; /* Link color */
+    margin: 0 10px; /* Space between links */
+    text-decoration: none; /* No underline */
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .copyright {
+    text-align: center; /* Center the copyright text */
+    padding: 1em 0; /* Padding for the copyright */
+    font-size: 0.9em; /* Smaller font size */
+    color: #777; /* Lighter text color */
+  }</style>

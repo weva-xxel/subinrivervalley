@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Steel Plates - Steel1</title>
+    <link rel="stylesheet" href="DEMO.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            
+
+
+ 
+   <body>
+
+        
+   
+       <!-- Navigation -->
+
+<!--
+       <nav class="navbar navbar-default navbar-fixed-top">
+           <div class="container">
+               <div class="navbar-header">
+                <style>
+      
+
+                    .navbar-brand {
+                        display: flex; /* Flexbox for the brand */
+                        align-items: center; /* Center logo vertically */
+                        text-decoration: none; /* Remove underline from the link */
+                    }
+            
+                    .logo {
+                        width: 100px; /* Increase the width of the logo */
+                        height: auto; /* Maintain aspect ratio */
+                        margin-right: 15px; /* Space between logo and text */
+                        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+                        border-radius: 5px; /* Rounded corners for the logo */
+                    }
+            
+                    .navbar-brand:hover .logo {
+                        transform: scale(1.1); /* Slightly enlarge logo on hover */
+                        transition: transform 0.3s; /* Smooth transition for the scaling effect */
+                    }
+                </style>
+             
+            
+                <a class="navbar-brand" href="#">
+                    <img src="images/SUBIN_LOGO.jpg" alt="Logo" class="logo">
+                </a>
+            
+                   <a class="navbar-brand" href="#">SUBIN RIVER VALLEY LMT</a>
+                   
+               </div>
+               -->
+
+ 
+               <style>
+      
+
+                .navbar-brand {
+                    display: flex; /* Flexbox for the brand */
+                    align-items: center; /* Center logo vertically */
+                    text-decoration: none; /* Remove underline from the link */
+                }
+        
+                .logo {
+                    width: 100px; /* Increase the width of the logo */
+                    height: auto; /* Maintain aspect ratio */
+                    margin-right: 15px; /* Space between logo and text */
+                    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+                    border-radius: 5px; /* Rounded corners for the logo */
+                }
+        
+                .navbar-brand:hover .logo {
+                    transform: scale(1.1); /* Slightly enlarge logo on hover */
+                    transition: transform 0.3s; /* Smooth transition for the scaling effect */
+                }
+            </style>
+            
+                   <nav class="navbar">
+                       <!-- Hamburger button -->
+                       <button class="navbar-toggle" type="button">
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                       </button>
+               
+                       <!-- Navigation links -->
+                       <div class="collapse navbar-collapse">
+                           <ul class="nav navbar-nav navbar-right">
+                               <li><a href="index.HTML">Home</a></li>
+                               <li><a href="tes.html">About</a></li>
+                               <li><a href="port.html">Portfolio</a></li>
+                               <li><a href="contact.html">Contact</a></li>
+                           </ul>
+                       </div>
+                       <a class="navbar-brand" href="#">
+                    <img src="images/SUBIN_LOGO.jpg" alt="Logo" class="logo">
+                </a>
+            
+                   <a class="navbar-brand" href="#">SUBIN RIVER VALLEY LMT</a>
+                   </nav>
+               
+
+               <style>body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            
+            .navbar {
+                background-color: #333;
+                padding: 10px;
+                position: relative;
+            }
+            
+            .navbar-toggle {
+                display: none; /* Hide the button by default */
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+                position: absolute;
+                top: 10px;
+                right: 10px;
+            }
+            
+            .navbar-toggle .icon-bar {
+                display: block;
+                width: 22px;
+                height: 2px;
+                background-color: #fff;
+                margin: 4px 0;
+            }
+            
+            /* Style for the nav links */
+            .navbar-collapse {
+                display: flex;
+                justify-content: flex-end;
+            }
+            
+            .navbar-nav {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+            
+            .navbar-nav li {
+                margin: 0 15px;
+            }
+            
+            .navbar-nav a {
+                color: white;
+                text-decoration: none;
+            }
+            
+            /* Show the button on small screens */
+            @media only screen and (max-width: 768px) {
+                .navbar-toggle {
+                    display: block; /* Show the hamburger button */
+                }
+                .navbar-collapse {
+                    display: none; /* Hide the nav by default on small screens */
+                    flex-direction: column; /* Stack links vertically */
+                    position: absolute; /* Position the dropdown */
+                    top: 50px; /* Adjust based on your navbar height */
+                    right: 0;
+                    background-color: #333; /* Match navbar background */
+                    width: 100%; /* Full width */
+                    z-index: 1000; /* Ensure dropdown is on top */
+                }
+                .navbar-collapse.in {
+                    display: flex; /* Show the nav when the button is clicked */
+                }
+                
+            }</style>
+
+              <script>// Add an event listener to the button
+                document.querySelector('.navbar-toggle').addEventListener('click', function() {
+                    // Toggle the 'in' class on the navbar-collapse element
+                    const navbarCollapse = document.querySelector('.navbar-collapse');
+                    navbarCollapse.classList.toggle('in');
+                });</script>
+           </div>
+       </nav>
+   
+   <header class="intro-header">
+    <div class="logo-container">
+        <img src="images/SUBIN_LOGO.jpg" alt="Company Logo" class="logo">
+    </div>
+    <h1>SUBIN RIVER VALLEY LMT</h1>
+    <h3>Dealers in Steel to the Mining Industry in West Africa</h3>
+</header>
+<!--
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f4f4f4;
+        line-height: 1.6;
+    }
+
+    .navbar {
+        background-color: #2c3e50; /* Dark background color */
+        border: none; /* Remove any borders */
+        padding: 10px; /* Add padding for better spacing */
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+        display: flex; /* Use flexbox for layout */
+        justify-content: space-between; /* Space out elements */
+        align-items: center; /* Center items vertically */
+    }
+
+    .navbar-brand,
+    .navbar-nav li a {
+        color: #ffffff !important; /* White text color for contrast */
+        text-decoration: none; /* Remove underline from links */
+    }
+
+    .navbar-nav li a:hover {
+        color: #f39c12; /* Change color on hover */
+    }
+
+    .navbar-logo {
+        height: 50px; /* Adjust the height as needed */
+        width: auto; /* Maintain aspect ratio */
+        margin: 5px 0; /* Adjust margin for spacing */
+    }
+
+    .sandwich-button {
+        display: none; /* Hide by default */
+        flex-direction: column; /* Stack lines vertically */
+        justify-content: space-around; /* Space lines evenly */
+        width: 30px; /* Width of the button */
+        height: 30px; /* Height of the button */
+        cursor: pointer; /* Pointer cursor on hover */
+        transition: transform 0.3s ease; /* Smooth transition */
+    }
+
+    .sandwich-button div {
+        background-color: #ffffff; /* Color of the lines */
+        height: 4px; /* Thickness of the lines */
+        width: 100%; /* Full width */
+        transition: all 0.3s ease; /* Smooth transition for lines */
+    }
+
+    /* Show sandwich button on small screens */
+    @media (max-width: 768px) {
+        .sandwich-button {
+            display: flex; /* Show button on small screens */
+        }
+        .navbar-nav {
+            display: none; /* Hide nav links by default */
+            position: absolute; /* Positioning for dropdown */
+            background-color: #2c3e50; /* Dark background */
+            top: 60px; /* Position below the navbar */
+            right: 0; /* Align to the right */
+            width: 100%; /* Full width */
+            flex-direction: column; /* Stack links vertically */
+            z-index: 999; /* Above other content */
+        }
+        .navbar-nav.active {
+            display: flex; /* Show links when active */
+        }
+    }
+-->
+    <style> 
+    .intro-header {
+        background-color: #2c3e50; /* Dark background color */
+        color: #ecf0f1; /* Light text color for contrast */
+        height: 100px; /* Set a smaller height */
+        text-align: center; /* Center text */
+        display: flex; /* Use flexbox for centering */
+        flex-direction: column; /* Stack children vertically */
+        justify-content: center; /* Center vertically */
+        padding: px; /* Add some padding */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+        margin-top: 0; /* Space for fixed navbar */
+    }
+
+    .intro-header h1 {
+        font-size: 1.5em; /* Smaller font size */
+        margin: 5px 0; /* Adjust margin */
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Add text shadow for readability */
+    }
+
+    .intro-header h3 {
+        font-size: 1em; /* Smaller font size */
+        margin: 5px 0; /* Adjust margin */
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Add text shadow for readability */
+}
+</style>
+
+ <script>
+        // JavaScript to toggle navigation menu on sandwich button click
+        const sandwichButton = document.getElementById('sandwich-button');
+        const navbarNav = document.querySelector('.navbar-nav');
+
+        sandwichButton.addEventListener('click', () => {
+            navbarNav.classList.toggle('active'); // Toggle the active class to show/hide the menu
+        });
+    </script>
+
+-->
+    <!--
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" class="svg-background">
+    <defs>
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#007bff;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#6c757d;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    <rect width="800" height="200" fill="url(#grad1)" />
+    <circle cx="400" cy="300" r="200" fill="rgba(255, 255, 255, 0.1)" />
+</svg>-->
+   
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   </body>
+   </html>
+    <header>
+        <h1>Steel Plates</h1>
+    </header>
+
+    <div class="dropdown-container">
+        <button class="dropdown-button">Types of Steel</button>
+        <div class="dropdown-content">
+            <a href="steel1.html">Steel Plates</a>
+            <a href="steel2.html">Steel Rods</a>
+            <a href="steel3.html">Steel Pipes</a>
+            <a href="steel4.html">Steel Fittings</a>
+             <a href="steel6.html">Steel Beams</a>
+            <a href="steel7.html">Steel Angles</a>
+        </div>
+    </div>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS -->
+        <title>Steel Sheet Image Gallery</title>
+    </head>
+    <body>
+        <div class="outer-container">
+            <div class="middle-container">
+                <h1>Steel Sheet Image Gallery</h1>
+                <div class="inner-container">
+                    <section class="image-gallery" aria-label="Gallery of Steel Plates">
+                        <div class="gallery-container">
+                            <div class="gallery-item">
+                                <img src="images/sp1.jpg" alt="Steel Plate 1">
+                                <div class="gallery-info">
+                                    <h4>Steel Plate 1</h4>
+                                    <p>High-strength steel plate suitable for various industrial applications.</p>
+                                </div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/sp2.jpeg" alt="Steel Plate 2">
+                                <div class="gallery-info">
+                                    <h4>Steel Plate 2</h4>
+                                    <p>Corrosion-resistant steel plate ideal for construction projects.</p>
+                                </div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/sp3.jpeg" alt="Steel Plate 3">
+                                <div class="gallery-info">
+                                    <h4>Steel Plate 3</h4>
+                                    <p>Lightweight and durable steel plate for automotive applications.</p>
+                                </div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/sp4.jpeg" alt="Steel Plate 4">
+                                <div class="gallery-info">
+                                    <h4>Steel Plate 4</h4>
+                                    <p>Heavy-duty steel plate designed for structural support.</p>
+                                </div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/sp5.jpeg" alt="Steel Plate 5">
+                                <div class="gallery-info">
+                                    <h4>Steel Plate 5</h4>
+                                    <p>Versatile steel plate used in various manufacturing processes.</p>
+                                </div>
+                            </div>
+                            <!-- Additional Images -->
+                            <div class="gallery-item">
+                                <img src="images/sp6.jpeg" alt="Steel Plate 6">
+                                <div class="gallery-info">
+                                    <h4>Steel Plate 6</h4>
+                                    <p>Durable steel plate for heavy machinery.</p>
+                                </div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/sp7.jpeg" alt="Steel Plate 7">
+                                <div class="gallery-info">
+                                    <h4>Steel Plate 7</h4>
+                                    <p>High-quality steel plate for industrial usage.</p>
+                                </div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/sp8.jpeg" alt="Steel Plate 8">
+                                <div class="gallery-info">
+                                    <h4>Steel Plate 8</h4>
+                                    <p>Lightweight steel plate for aerospace applications.</p>
+                                </div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/sp9.jpeg" alt="Steel Plate 9">
+                                <div class="gallery-info">
+                                    <h4>Steel Plate 9</h4>
+                                    <p>Corrosion-resistant steel for marine use.</p>
+                                </div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/sp10.jpeg" alt="Steel Plate 10">
+                                <div class="gallery-info">
+                                    <h4>Steel Plate 10</h4>
+                                    <p>Heavy-duty steel plate for construction.</p>
+                                </div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/sp11.jpeg" alt="Steel Plate 11">
+                                <div class="gallery-info">
+                                    <h4>Steel Plate 11</h4>
+                                    <p>Versatile steel plate for automotive parts.</p>
+                                </div>
+                            </div>
+                             
+                            <div class="gallery-item">
+                                <img src="images/sp12.jpeg" alt="Steel Plate 12">
+                                <div class="gallery-info">
+                                    <h4>Steel Plate 12</h4>
+                                    <p>High-strength steel plate for machinery.</p>
+                                </div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/sp13.jpg" alt="Steel Plate 13">
+                                <div class="gallery-info">
+                                    <h4>Steel Plate 13</h4>
+                                    <p>Durable steel plate for heavy-duty applications.</p>
+                                </div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/sp14.jpg" alt="Steel Plate 14">
+                                <div class="gallery-info">
+                                    <h4>Steel Plate 14</h4>
+                                    <p>High-performance steel for structural integrity.</p>
+                                </div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/sp15.jpg" alt="Steel Plate 15">
+                                <div class="gallery-info">
+                                    <h4>Steel Plate 15</h4>
+                                    <p>Lightweight steel plate suitable for various applications.</p>
+                                </div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/sp16.jpeg" alt="Steel Plate 16">
+                                <div class="gallery-info">
+                                    <h4>Steel Plate 16</h4>
+                                    <p>Corrosion-resistant steel for outdoor use.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+
+    <style>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.outer-container {
+    padding: 20px;
+}
+
+.middle-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.gallery-item {
+    width: calc(25% - 20px); /* Four items per row on larger screens */
+    margin: 10px;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add border radius */
+    object-fit: cover; /* Ensure images cover the space */
+}
+
+.gallery-info {
+    margin-top: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .gallery-item {
+        width: calc(50% - 20px); /* Two items per row on mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-item {
+        width: 100%; /* One item per row on very small screens */
+    }
+}</style>
+    <script>
+        // Select all images in the gallery
+        document.querySelectorAll('.gallery-item img').forEach((img) => {
+            img.addEventListener('click', () => {
+                // Get the lightbox element
+                const lightbox = document.getElementById('lightbox');
+                const lightboxImg = document.getElementById('lightbox-img');
+    
+                // Set the lightbox image source to the clicked image
+                lightboxImg.src = img.src;
+                lightbox.style.display = 'flex'; // Show the lightbox
+    
+                // Close lightbox on clicking the close button
+                lightbox.querySelector('.close').addEventListener('click', () => {
+                    lightbox.style.display = 'none'; // Hide the lightbox
+                });
+    
+                // Close lightbox on clicking outside the image
+                lightbox.addEventListener('click', (e) => {
+                    if (e.target === lightbox) {
+                        lightbox.style.display = 'none'; // Hide the lightbox
+                    }
+                });
+            });
+        });
+    </script>
+
+<section class="specifications" aria-labelledby="specifications-heading">
+    <div class="specifications-container">
+        <h2 id="specifications-heading">Specifications</h2>
+        <article class="specification-item">
+            <h3>P114</h3>
+            <p>Thickness: 1/4 inch</p>
+            <p>Material: A36 Steel Plate</p>
+            <p>Weight: 10.21 lb/sqft</p>
+            <h4>Select Size:</h4>
+            <div class="size-options">
+                <button class="size-button">4x8 ft</button>
+                <button class="size-button">4x10 ft</button>
+                <button class="size-button">5x10 ft</button>
+            </div>
+            <h4>Physical Properties</h4>
+            <ul>
+                <li>Density: 490 lb/ft³</li>
+                <li>Tensile Strength: 58-80 ksi</li>
+                <li>Yield Strength: 36 ksi</li>
+                <li>Elongation: 20%</li>
+            </ul>
+            <h4>Chemical Properties</h4>
+            <ul>
+                <li>Carbon (C): 0.26% max</li>
+                <li>Manganese (Mn): 0.60-0.90%</li>
+                <li>Phosphorus (P): 0.04% max</li>
+                <li>Sulfur (S): 0.05% max</li>
+                <li>Silicon (Si): 0.15-0.40%</li>
+            </ul>
+        </article>
+    </div>
+</section>
+
+    <section class="plates" aria-labelledby="other-plate-types-heading">
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plate Types</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .plates {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .plate {
+            background: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(45% - 40px); /* Adjusts width for 2 items per row */
+            max-width: 400px; /* Maximum width for each plate */
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .plate:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .plate img {
+            width: 100%; /* Responsive image */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .order-form {
+            text-align: center;
+        }
+
+        .order-form select {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+            margin-right: 10px;
+            transition: border-color 0.3s;
+        }
+
+        .order-form button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+
+        .order-form button:hover {
+            background-color: #0056b3;
+        }
+
+        @media (max-width: 768px) {
+            .plate {
+                flex: 1 1 calc(100% - 40px); /* Full width on mobile */
+                max-width: none; /* Remove max-width */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h2 id="other-plate-types-heading">Plate Types</h2>
+
+    <div class="plates-container">
+        <!-- Stainless Steel Plate -->
+        <div class="plate">
+            <h3>1. Stainless Steel Plate</h3>
+            <img src="images/ssp.jpeg" alt="Stainless Steel Plate">
+            <p>Properties: Corrosion resistant, high strength.</p>
+            <h4>Physical Properties</h4>
+            <ul>
+                <li>Density: 490 lb/ft³</li>
+                <li>Tensile Strength: 70-90 ksi</li>
+                <li>Yield Strength: 30-50 ksi</li>
+                <li>Elongation: 40%</li>
+            </ul>
+            <h4>Chemical Properties</h4>
+            <ul>
+                <li>Carbon (C): 0.08% max</li>
+                <li>Manganese (Mn): 2.00% max</li>
+                <li>Phosphorus (P): 0.045% max</li>
+                <li>Sulfur (S): 0.030% max</li>
+                <li>Nickel (Ni): 8.00-10.50%</li>
+                <li>Chromium (Cr): 18.00-20.00%</li>
+            </ul>
+            <div class="order-form">
+                <h4>Order Now</h4>
+                <select class="size-select">
+                    <option>Select Size...</option>
+                    <option value="1x1">1 x 1 Ft.</option>
+                    <option value="1x2">1 x 2 Ft.</option>
+                    <option value="1x4">1 x 4 Ft.</option>
+                    <option value="2x2">2 x 2 Ft.</option>
+                    <option value="2x4">2 x 4 Ft.</option>
+                    <option value="4x4">4 x 4 Ft.</option>
+                    <option value="2x8">2 x 8 Ft.</option>
+                    <option value="4x8">4 x 8 Ft.</option>
+                    <option value="4x10">4 x 10 Ft.</option>
+                    <option value="5x10">5 x 10 Ft.</option>
+                    <option value="cut">Cut to Size</option>
+                </select>
+                <input type="number" class="quantity-input" min="1" value="1" placeholder="Quantity">
+                <button class="order-button">Order</button>
+            </div>
+        </div>
+    
+        <!-- Galvanized Sheet -->
+        <div class="plate">
+            <h3>2. Galvanized Sheet</h3>
+            <img src="images/gsp.jpg" alt="Galvanized Sheet">
+            <p>Properties: Zinc-coated for corrosion resistance.</p>
+            <h4>Physical Properties</h4>
+            <ul>
+                <li>Density: 490 lb/ft³</li>
+                <li>Tensile Strength: 50-70 ksi</li>
+                <li>Yield Strength: 30-40 ksi</li>
+                <li>Elongation: 25%</li>
+            </ul>
+            <h4>Chemical Properties</h4>
+            <ul>
+                <li>Carbon (C): 0.15% max</li>
+                <li>Manganese (Mn): 0.60-0.90%</li>
+                <li>Phosphorus (P): 0.04% max</li>
+                <li>Sulfur (S): 0.05% max</li>
+                <li>Coating Thickness: 0.25-0.50 mils</li>
+            </ul>
+            <div class="order-form">
+                <h4>Order Now</h4>
+                <select class="size-select">
+                    <option>Select Size...</option>
+                    <option value="1x1">1 x 1 Ft.</option>
+                    <option value="1x2">1 x 2 Ft.</option>
+                    <option value="1x4">1 x 4 Ft.</option>
+                    <option value="2x2">2 x 2 Ft.</option>
+                    <option value="2x4">2 x 4 Ft.</option>
+                    <option value="4x4">4 x 4 Ft.</option>
+                    <option value="2x8">2 x 8 Ft.</option>
+                    <option value="4x8">4 x 8 Ft.</option>
+                    <option value="4x10">4 x 10 Ft.</option>
+                    <option value="5x10">5 x 10 Ft.</option>
+                    <option value="cut">Cut to Size</option>
+                </select>
+                <input type="number" class="quantity-input" min="1" value="1" placeholder="Quantity">
+                <button class="order-button">Order</button>
+            </div>
+        </div>
+    
+        <!-- Steel Plate -->
+        <div class="plate">
+            <h3>3. Steel Plate</h3>
+            <img src="images/sp.jpg" alt="Steel Plate">
+            <p>Properties: High strength, durable.</p>
+            <h4>Physical Properties</h4>
+            <ul>
+                <li>Density: 490 lb/ft³</li>
+                <li>Tensile Strength: 58-80 ksi</li>
+                <li>Yield Strength: 36 ksi</li>
+                <li>Elongation: 20%</li>
+            </ul>
+            <h4>Chemical Properties</h4>
+            <ul>
+                <li>Carbon (C): 0.26% max</li>
+                <li>Manganese (Mn): 0.60-0.90%</li>
+                <li>Phosphorus (P): 0.04% max</li>
+                <li>Sulfur (S): 0.05% max</li>
+                <li>Silicon (Si): 0.15-0.40%</li>
+            </ul>
+            <div class="order-form">
+                <h4>Order Now</h4>
+                <select class="size-select">
+                    <option>Select Size...</option>
+                    <option value="1x1">1 x 1 Ft.</option>
+                    <option value="1x2">1 x 2 Ft.</option>
+                    <option value="1x4">1 x 4 Ft.</option>
+                    <option value="2x2">2 x 2 Ft.</option>
+                    <option value="2x4">2 x 4 Ft.</option>
+                    <option value="4x4">4 x 4 Ft.</option>
+                    <option value="2x8">2 x 8 Ft.</option>
+                    <option value="4x8">4 x 8 Ft.</option>
+                    <option value="4x10">4 x 10 Ft.</option>
+                    <option value="5x10">5 x 10 Ft.</option>
+                    <option value="cut">Cut to Size</option>
+                </select>
+                <input type="number" class="quantity-input" min="1" value="1" placeholder="Quantity">
+                <button class="order-button">Order</button>
+            </div>
+        </div>
+    
+        <!-- Aluminium Plate -->
+        <div class="plate">
+            <h3>4. Aluminium Plate</h3>
+            <img src="images/asp.jpg" alt="Aluminium Plate">
+            <p>Properties: Lightweight, corrosion-resistant.</p>
+            <h4>Physical Properties</h4>
+            <ul>
+                <li>Density: 168.5 lb/ft³</li>
+                <li>Tensile Strength: 40-50 ksi</li>
+                <li>Yield Strength: 20-30 ksi</li>
+                <li>Elongation: 15-25%</li>
+            </ul>
+            <h4>Chemical Properties</h4>
+            <ul>
+                <li>Carbon (C): 0.05% max</li>
+                <li>Manganese (Mn): 0.15% max</li>
+                <li>Silicon (Si): 0.25% max</li>
+                <li>Iron (Fe): 0.70% max</li>
+                <li>Magnesium (Mg): 0.70-1.50%</li>
+            </ul>
+            <div class="order-form">
+                <h4>Order Now</h4>
+                <select class="size-select">
+                    <option>Select Size...</option>
+                    <option value="1x1">1 x 1 Ft.</option>
+                    <option value="1x2">1 x 2 Ft.</option>
+                    <option value="1x4">1 x 4 Ft.</option>
+                    <option value="2x2">2 x 2 Ft.</option>
+                    <option value="2x4">2 x 4 Ft.</option>
+                    <option value="4x4">4 x 4 Ft.</option>
+                    <option value="2x8">2 x 8 Ft.</option>
+                    <option value="4x8">4 x 8 Ft.</option>
+                    <option value="4x10">4 x 10 Ft.</option>
+                    <option value="5x10">5 x 10 Ft.</option>
+                    <option value="cut">Cut to Size</option>
+                </select>
+                <input type="number" class="quantity-input" min="1" value="1" placeholder="Quantity">
+                <button class="order-button">Order</button>
+            </div>
+        </div>
+    </div>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .plates-container {
+            display: flex;
+            flex-wrap: wrap; /* Allow items to wrap to the next line */
+            justify-content: space-between; /* Equal spacing between items */
+            margin: 20px; /* Add some margin around the container */
+        }
+
+        .plate {
+            background-color: #f9f9f93a; /* Light background for plates */
+            border: 1px solid #ddd; /* Border around each plate */
+            border-radius: 8px; /* Rounded corners */
+            padding: 15px; /* Padding inside each plate */
+            margin: 10px; /* Margin around each plate */
+            flex: 1 1 calc(50% - 20px); /* Responsive width for 2 columns */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+
+        .order-form {
+            margin-top: 10px; /* Space above the order form */
+        }
+
+        .order-summary {
+            margin-top: 20px;
+            border-top: 2px solid #ddd;
+            padding-top: 10px;
+        }
+
+        .order-history {
+            margin-top: 20px;
+            border-top: 2px solid #ddd;
+            padding-top: 10px;
+        }
+
+        .order-history ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .order-history li {
+            margin: 5px 0;
+        }
+    </style>
+    <script>
+        document.querySelectorAll('.order-button').forEach(button => {
+            button.addEventListener('click', function() {
+                const plateDiv = this.closest('.plate');
+                const size = plateDiv.querySelector('.size-select').value;
+                const quantity = plateDiv.querySelector('.quantity-input').value;
+        
+                if (size === "Select Size...") {
+                    alert("Please select a size.");
+                    return;
+                }
+        
+                if (confirm(`Confirm your order: ${quantity} of size ${size}?`)) {
+                    // Send data to the server
+                    fetch('/order', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ size: size, quantity: quantity })
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        alert(data.message);
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+                }
+            });
+        });
+        </script>
+</body>
+</html>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+                <div class="image-placeholder">
+                    <img src="images/steel_sheet_H2.jpeg" alt="Steel Products" />
+                </div>
+                <div class="smart-arts">
+                    <h4>Why Choose Us?</h4>
+                    <div class="smart-art-items">
+                        <div class="smart-art-item">
+                            <img src="images/quality_footer.jpg" alt="Quality"/>
+                            <h5>High Quality</h5>
+                            <p>We provide top-notch steel products that meet industry standards.</p>
+                        </div>
+                        <div class="smart-art-item">
+                            <img src="images/competitive.jpg" alt="Competitive Pricing" />
+                            <h5>Competitive Pricing</h5>
+                            <p>Our prices are designed to fit your budget without compromising quality.</p>
+                        </div>
+                        <div class="smart-art-item">
+                            <img src="images/delivery.jpg" alt="Fast Delivery" />
+                            <h5>Fast Delivery</h5>
+                            <p>We ensure timely delivery of your orders, every time.</p>
+                        </div>
+                        <div class="smart-art-item">
+                            <img src="images/service.jpg" alt="Customer Service" />
+                            <h5>Excellent Service</h5>
+                            <p>Our customer support is here to assist you with all your needs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-media">
+                    <h4>Follow Us:</h4>
+                    <a href="https://facebook.com" target="_blank">Facebook</a>
+                    <a href="https://twitter.com" target="_blank">Twitter</a>
+                    <a href="https://instagram.com" target="_blank">Instagram</a>
+                    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+            <p class="copyright text-muted small">Copyright &copy; Ashtown Group of Companies 2024. All Rights Reserved</p>
+        </div>
+    </footer>
+ 
+ 
+    <script>
+        document.querySelectorAll('.order-form button').forEach(button => {
+            button.addEventListener('click', function() {
+                const selectedSize = this.previousElementSibling.value;
+                if (selectedSize === "Select Size...") {
+                    alert("Please select a size before ordering.");
+                } else {
+                    alert(`Order for size ${selectedSize} placed successfully!`);
+                }
+            });
+        });
+    </script>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
